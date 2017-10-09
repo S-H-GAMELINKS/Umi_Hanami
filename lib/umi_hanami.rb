@@ -1,0 +1,2 @@
+module UmiHanami
+end

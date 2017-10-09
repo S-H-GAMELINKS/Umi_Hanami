@@ -1,0 +1,50 @@
+<header>
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <h1><%= link_to 'SampleWeb', '/' %></h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- Containers
+  ================================================== -->
+  <div class="bs-docs-section">
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-header">
+          <h1 id="container">What's This Page?</h1>
+        </div>
+        <div class="bs-component">
+          <div class="jumbotron">
+            <p><%= link_to 'This is sample for Hanami Web page.', 'http://hanamirb.org/' %></p>
+            <p><%= link_to 'Using Heroku', 'https://www.heroku.com' %></p>
+            <p><%= link_to 'And, Umi is one of the original Bootstrap theme used.', 'https://nkmr6194.github.io/Umi/' %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  $('.bs-component [data-toggle="popover"]').popover();
+  $('.bs-component [data-toggle="tooltip"]').tooltip();
+</script>
+
+<footer>
+    <div class="navbar-collapse collapse" id="navbar-main">
+      <ul class="nav navbar-nav">
+        <li><h1><%= link_to 'Top', '/' %></h1></li>
+        <li><h1><%= link_to 'Source', 'https://github.com/S-H-GAMELINKS/Umi_Hanami' %></h1></li>
+        <li><h1><%= link_to 'Mastodon', 'https://gamelinks007.net' %></h1></li>
+        <li><h1><%= link_to 'Link', 'https://gamelinksweb.herokuapp.com'%></h1</li>
+      </ul>
+    </div>
+</footer>
